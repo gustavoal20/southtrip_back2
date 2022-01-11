@@ -1,13 +1,42 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Logo from './components/Logo'
+import Portada from './components/Portada';
+import Texto from './components/Texto'
+import Excursiones from './components/Excursiones';
+import Instagram from './components/Instagram';
+import Transporte from './components/Transporte';
+import Barrainferior from './components/Barrainferior'
 
 ReactDOM.render(
+<div>
+  
+  <div>
+  <Logo/>
+  <Portada/>
+  <br/>
+  <br/>
+  <Texto/>
+  <br/>
+  <br/>
+  <Transporte/>
+  <Excursiones/>
+  <br/>
+  <br/>
+  <br/>
+  <Instagram/>
+  <br/>
+  <br/>
+  <Barrainferior/>
+  </div>
+
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
+</div>,
   document.getElementById('root')
 );
 
