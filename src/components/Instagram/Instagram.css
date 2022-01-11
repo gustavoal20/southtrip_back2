@@ -1,0 +1,23 @@
+.instagram{
+    margin: 30px;
+    padding: 0px;
+    padding: 0%;
+  }
+  
+  .instagram2{
+    margin: 30px;
+    padding: 0px;
+    
+  }
+  
+  .boton{
+    font-size: 40px;
+    padding: 25px;
+  
+  }
+  
+  .boton2{
+    display: grid;
+    place-content: center;
+    margin: 5px;
+  }
