@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Logo from './components/Logo'
+import Barrasuperior from './components/Barrasuperior';
 import Portada from './components/Portada';
-import Texto from './components/Texto'
+import Texto from './components/Texto';
 import Excursiones from './components/Excursiones';
 import Instagram from './components/Instagram';
 import Transporte from './components/Transporte';
@@ -15,7 +15,7 @@ ReactDOM.render(
 <div>
   
   <div>
-  <Logo/>
+  <Barrasuperior/>
   <Portada/>
   <br/>
   <br/>

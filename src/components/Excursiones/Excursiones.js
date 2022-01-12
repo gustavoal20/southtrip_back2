@@ -16,4 +16,4 @@ const Excursiones = () => {
     )
 }
 
-export default Excursiones
+export default Excursiones;

@@ -1,9 +1,9 @@
 import React from "react";
-import logo from "../imagenes/logo.jpg"
+import logo from "./imagenes/logo.jpg"
 //import "~bootstrap/scss/bootstrap";
-import { Navbar, Nav, Container, Link, NavDropdown} from "react-bootstrap"
+import { Navbar, Nav, Container,} from "react-bootstrap"
 
-const Logo = () => {
+const Barrasuperior = () => {
 
     return (
         <div className="nav" width="120" height="100">
@@ -49,4 +49,4 @@ const Logo = () => {
     )
 }
 
-export default Logo
+export default Barrasuperior;
