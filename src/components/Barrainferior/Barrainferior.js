@@ -20,7 +20,7 @@ const Barrainferior = () => {
             <p> <BsTelephone/> +54 267 456321</p>
             <p> <FiMail/> info@southrip.com.ar</p>
             <p> <BsWhatsapp/> +3462304065</p>
-            <p> © Copyright 2022 Southrip</p>
+            <p> ©Copyright 2022 Southrip</p>
 
 
         </div>    
