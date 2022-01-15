@@ -1,0 +1,15 @@
+.texto{
+    justify-content: space-around;
+    font-family: sans-serif;
+    color: red;
+    text-align: center;
+    font-family: larger;
+  }
+  
+  .texto2{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(187, 184, 184);
+    text-align: center;
+    font-family: medium;
+    font-style: normal;
+  }

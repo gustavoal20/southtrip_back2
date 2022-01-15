@@ -1,0 +1,88 @@
+body {
+   background-color: white;
+}
+
+.texto{
+  justify-content: space-around;
+  font-family: sans-serif;
+  color: red;
+  text-align: center;
+  font-family: larger;
+}
+
+.texto2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(187, 184, 184);
+  text-align: center;
+  font-family: medium;
+  font-style: normal;
+}
+
+.nav{
+  
+  
+} 
+
+code {
+  font-family:
+   source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* .logo{
+  
+} */
+
+.portada img{
+  width: 100%;
+  height: 555px;
+  
+}
+
+
+
+.transporte h1{
+  color: rgb(51, 51, 145);
+}
+
+.transporte p{
+  font-size: 20px;
+  margin: 20px;
+}
+
+.transporte img{
+    height: 50%;
+    width: 50%;
+    float: left;
+}
+
+.transporte{
+  float: left;
+  text-align: center;
+  
+}
+
+.barra img{
+  float: left;
+  width: 20%;
+  padding: 15px;
+  
+}
+
+.barra{
+  background-color: black;
+  padding: 50px;
+}
+
+.barra2 p{
+  margin: 15px;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  display: flex;
+  
+}
+
+.barra2{
+ 
+}

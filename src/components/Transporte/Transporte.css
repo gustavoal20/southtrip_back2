@@ -1,0 +1,21 @@
+.transporte h1{
+    color: rgb(51, 51, 145);
+  }
+  
+  .transporte p{
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .transporte img{
+      height: 50%;
+      width: 50%;
+      float: left;
+  }
+  
+  .transporte{
+    float: left;
+    text-align: center;
+    
+  }
