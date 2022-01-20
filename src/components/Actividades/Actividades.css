@@ -1,0 +1,45 @@
+.Actividades img{
+    width: 100%;
+    height: 555px;
+}
+
+.iconos{
+    padding-left: 53px;
+  
+    font-size: 20px;
+   
+}
+
+.caminata{
+    padding-left: 70px; 
+    
+}
+
+.iconos p{
+    
+    margin: 20px;
+}
+
+.caminata2{
+    padding-left: 70px;
+}
+
+.linea{
+    
+    
+}
+
+.card{
+    float:right;
+    
+}
+
+.boton{
+
+    font-size: 20px;
+    height: 30px;
+}
+
+.ubicacion{
+    padding-left: 70px;
+}
