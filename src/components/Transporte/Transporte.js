@@ -1,22 +1,35 @@
-import React from 'react'
-import traslado from './imagenes/traslados.jpg'
-import "./Transporte.css"
+import React from 'react';
+import traslado from './imagenes/traslados.jpg';
+import "./Transporte.css";
+import {Button} from "react-bootstrap"
 
 function Transporte() {
     return (
-    <div className='transporte'>
+    <div className='transporte' style={{backgroundColor: '#f5f5f5'}}>
 
-        <h1>---TRASLADOS---</h1>
+        <h2 className='traslados'>TRASLADOS</h2>
         
              <img src={traslado} />
-        
-          
-        
-            <h2 >Desde ahora ya podes contratar tu traslado!!!</h2>
 
-            <p>Desde el aeropuerto, terminal de omnibus hasta tu hotel o alojamiento, tanto ida, como ida o vuelta, en servicios regulares o privados.
-            Con todos los medios de pago</p>
+             <div className='traslados2'><h3>Desde ahora ya podes contratar tu traslado!!!</h3></div> 
 
+             <div>
+                <h2 className="transportetex">
+                    <span >
+                       
+                        <div>Desde el aeropuerto hasta tu hotel o alojamiento </div> 
+                        <div>tanto ida, como ida o vuelta, en servicios regulares o privados. </div>
+                        <br/>
+                        <div >Con todos los medios de pago. </div>
+                    </span>
+                </h2>
+
+                <div className='boton'>
+                     <Button variant='dark'><a href='/Contacto'>Contactanos</a></Button>
+                 </div>
+            </div>
+            
+        
     </div>
     
  )

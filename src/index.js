@@ -1,43 +1,26 @@
-import React,{Component} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Barrasuperior from './components/Barrasuperior/Barrasuperior';
-import Portada from './components/Portada/Portada';
-import Texto from './components/Texto/Texto';
-import Excursiones from './components/Excursiones/Excursiones';
-import Instagram from './components/Instagram/Instagram';
-import Transporte from './components/Transporte/Transporte';
-import Barrainferior from './components/Barrainferior/Barrainferior';
-import Login from './components/login/Login'
-ReactDOM.render(
-<div>
-  
-  <div>
-    <Login/> 
-  <Barrasuperior/>
-  <Portada/>
-  <br/>
-  <br/>
-  <Texto/>
-  <br/>
-  <br/>
-  <Transporte/>
-  <Excursiones/>
-  <br/>
-  <br/>
-  <br/>
-  <Instagram/>
-  <br/>
-  <br/>
-  <Barrainferior/>
-  </div>
 
-  <React.StrictMode>
+
+// ReactDOM.render(
+// <div>
+
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>
+// </div>,
+//   document.getElementById('root') 
+
+// );
+
+ReactDOM.render(
+  <BrowserRouter>
     <App />
-  </React.StrictMode>
-</div>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

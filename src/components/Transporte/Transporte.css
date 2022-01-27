@@ -1,11 +1,13 @@
-.transporte h1{
+.traslados{
     color: rgb(51, 51, 145);
+    
   }
   
-  .transporte p{
+  .transportetex{
     font-size: 20px;
     margin: 20px;
-    text-align: center;
+    text-align: left;
+    
   }
   
   .transporte img{
@@ -17,5 +19,15 @@
   .transporte{
     float: left;
     text-align: center;
+    width: 100%;
+  }
+
+   .traslados2{
+    padding: 20px;
+  }
+
+  .boton{
+    text-align: left;
+    
     
   }

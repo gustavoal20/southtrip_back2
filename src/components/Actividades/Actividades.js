@@ -6,7 +6,7 @@ import { GoCircleSlash } from "react-icons/go";
 import { GrGroup } from "react-icons/gr";
 import { Card, Form, ListGroup, Button } from "react-bootstrap";
 import ubicacion from './Imagenes/ubicacion.jpeg'
-
+import {FcCheckmark } from "react-icons/fc";
 
 const Actividades = () => {
 
@@ -21,36 +21,63 @@ const Actividades = () => {
             <br/>
             <br/>
           <div className="caminata"> 
-          <h2>CAMINATA</h2>
+          <h3>CAMINATA</h3>
           </div> 
+
+          <div className="lineacami">
+         <hr/>
+       </div> 
 
           <div className="card">
             <Card style={{ width: '18rem' }}>
-                <Card.Header>AR$5.100,00</Card.Header>
+                <Card.Header >AR$5.100,00</Card.Header>
                 <ListGroup variant="flush">
-                    <ListGroup.Item>Cras justo odio</ListGroup.Item>
-                    <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-                    <ListGroup.Item ><Button className="boton"  variant="primary" type="submit">
-            reservar ahora</Button></ListGroup.Item>
+                  
+                    <ListGroup.Item>Fecha</ListGroup.Item>
+                    <ListGroup.Item>Adultos</ListGroup.Item>
+                    <ListGroup.Item ><Button className="botonacts"  variant="primary" type="submit">
+            reservar </Button></ListGroup.Item>
                 </ListGroup>
+                
             </Card>
           </div>
           <br/>
           
         
           <div className="iconos">
-          <p><AiOutlineClockCircle/> Duracion: 10hs</p>
-          <p><GoCircleSlash/> Cancelacion: no se cansela</p>
-          <p><GrGroup/> Maxi de personas: 20 </p>
+          <p><AiOutlineClockCircle/> Duracion:</p>
           </div>
+
+          <div className="iconos2"> 10hs</div>
+
+          <div className="iconos">
+          <p><GoCircleSlash/> Cancelacion:</p> 
+          </div>
+
+            <p>no se cansela</p> 
+
+           <div className="iconos">
+          <p><GrGroup/> Maxi de personas:</p> 
+          </div>
+
+         <div className="iconos2"> <p> 20 </p>
+         </div>
+          
         
 
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <div className="lineacami">
+         <hr/>
+         <br/>
+         </div> 
+          <div className="descripcion"><h3>DESCRIPCION</h3></div>
 
-          <br/>
-          <br/>
-         
           <div className="caminata2"> 
-          <h2>DESCRIPCION</h2>
+          
           <br/>
           <p>De la mano de ANDES TRUCK te invitamos a recorrer la Reserva Natural Villavicencio. Un lugar que despertará tu espíritu aventurero.</p>
 
@@ -61,25 +88,27 @@ const Actividades = () => {
         <br/>
          <h5>Tips Kahuak para esta actividad:</h5>
          <br/>
-         <p>Recomendamos llevar ropa cómoda, pantalón largo y abrigo, zapatos deportivos.</p>
-         <p>Llevar identificación personal, dinero en efectivo, agua mineral.</p>
-         <p>No olvidar los anteojos de sol y protección solar.</p>
-         <p>Plan familiar ideal, que requiere actividad física moderada* </p>
+       <ul><li><p>Recomendamos llevar ropa cómoda, pantalón largo y abrigo, zapatos deportivos.</p></li> </ul>
+       <ul><li><p>Llevar identificación personal, dinero en efectivo, agua mineral.</p></li> </ul>
+       <ul><li><p>No olvidar los anteojos de sol y protección solar.</p></li> </ul>
+       <ul><li><p>Plan familiar ideal, que requiere actividad física moderada* </p></li> </ul>
          </div>
         
-          <hr className="linea"/>
-
-        <div className="caminata2"> 
-          <h2>INCLUYE</h2>
+        <hr className="linea"/> 
+        <br/>
+        <div className="caminata3"> 
+          <h3>INCLUYE</h3>
           <br/>
-          <p> Minitrekking guiado a las minas.</p>         
-          <p>Casco y seguro.</p>
-          <p>Agua mineral.</p>
+          <p><FcCheckmark/> Minitrekking guiado a las minas.</p>         
+          <p><FcCheckmark/> Casco y seguro.</p>
+          <p><FcCheckmark/> Agua mineral.</p>
         </div>
-        <hr/>
+       <div className="linea">
+         <hr/>
+       </div> 
 
         <div className="ubicacion">
-        <h2>UBICACION</h2>
+        <h3>UBICACION</h3>
         <img className="imgubi" src={ubicacion} width="20%"/>
         </div>
         </div>

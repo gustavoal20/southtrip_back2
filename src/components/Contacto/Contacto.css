@@ -1,0 +1,38 @@
+.textocon h3{
+    color: rgb(51, 51, 145);
+}
+
+.textocon{
+    padding-left: 80px;
+}
+
+.textocon img{
+    float:right;
+    padding-right: 80px;
+}
+
+.lineacon{
+    margin-left: 75px;
+    margin-right: 695px;
+    padding: 5px;
+}
+
+.formulario{
+    margin-left: 80px;
+    margin-right: 700px;
+}
+
+/* .faro{
+    float: left;
+    
+} */
+
+.botonen button{
+    width: 35%;
+    height: 20%;
+    font-size: 15px;
+    
+}
+.campos p{
+    font-size: 13px;
+}
