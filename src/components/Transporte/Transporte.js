@@ -5,7 +5,7 @@ import {Button} from "react-bootstrap"
 
 function Transporte() {
     return (
-    <div className='transporte' style={{backgroundColor: '#f5f5f5'}}>
+    <div className='transporte' id='traslados' style={{backgroundColor: '#f5f5f5'}}>
 
         <h2 className='traslados'>TRASLADOS</h2>
         

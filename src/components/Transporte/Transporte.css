@@ -29,5 +29,9 @@
   .boton{
     text-align: left;
     
-    
+  }
+
+  .boton a{
+    text-decoration: none;
+    color: white;
   }

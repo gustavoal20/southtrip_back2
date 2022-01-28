@@ -12,7 +12,7 @@ const Barrainferior = () => {
 
     return (
     <div className="barra">
-    <a href="/home">
+    <a href="/">
         <img src={logo} alt= " " />
         </a>   
         <div className="barra2">

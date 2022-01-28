@@ -23,7 +23,7 @@ function Instagram() {
 
 
     <div>
-<div className='boton'>
+<div className='botonin'>
   <AiFillInstagram/>  <a href='https://www.instagram.com/southtripushuaia/' > southtripushuaia</a> 
 
 </div>

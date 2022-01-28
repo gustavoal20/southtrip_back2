@@ -28,8 +28,8 @@ const Actividades = () => {
          <hr/>
        </div> 
 
-          <div className="card">
-            <Card style={{ width: '18rem' }}>
+          <div className="card1">
+            <Card className="card1" style={{ width: '18rem' }}>
                 <Card.Header >AR$5.100,00</Card.Header>
                 <ListGroup variant="flush">
                   

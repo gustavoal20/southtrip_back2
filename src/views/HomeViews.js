@@ -8,7 +8,7 @@ import Instagram from '../components/Instagram/Instagram';
 import Transporte from '../components/Transporte/Transporte';
 import Barrainferior from '../components/Barrainferior/Barrainferior';
 import BtnFlotante from '../components/Btn-flotante/BtnFlotante';
-
+import Turismo from '../components/Turismo/Turismo';
 
 const HomeView = (props) => {
   return (
@@ -36,6 +36,40 @@ const HomeView = (props) => {
       <Texto/>
       <br/>
       <br/>
+      <Turismo/>
+      <br/>
+      <br/>
+      {/* <div class="vc_empty_space" style="height: 35px">
+      	 
+      </div> */}
+       <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+     
+      
       <Transporte/>
       <Excursiones/>
       <br/>
