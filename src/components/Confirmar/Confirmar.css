@@ -1,0 +1,107 @@
+
+.linearoja{
+    margin-left: 70px;
+    margin-right: 70px;
+    color: rgb(51, 51, 145);
+    
+}
+
+.reserva{
+    float: right;
+    margin-right: 305px;
+    color: rgb(51, 51, 145);
+}
+
+.cardreserva{
+    float: right;
+    margin-right: 70px;
+    
+}
+
+.total{
+    margin: 0px 0px 0px 0px;
+    color: rgb(51, 51, 145);
+    font-size: 20px;
+}
+
+.lineaparque{
+    color: rgb(51, 51, 145);
+}
+
+.lineafacturacion{
+    color: rgb(51, 51, 145);
+    margin-left: 70px;
+    margin-right: 500px;
+}
+
+.precio{
+    color: rgb(51, 51, 145);
+    float: right;
+
+
+}
+
+.parque{
+    text-align: left;
+    color: rgb(51, 51, 145);
+}
+
+.cardcaminata{
+    width: 130px;
+    float: right;
+}
+
+.precio{
+    float: right;
+}
+
+.facturacion{
+    margin-left: 70px;
+    color: rgb(51, 51, 145);
+}
+
+.formularionombre{
+    margin-left: 70px;
+    color: rgb(51, 51, 145);
+    margin-right: 900px;
+}
+
+ .formularioalpellido{
+    margin-left: 70px;
+    color: rgb(51, 51, 145);
+    margin-right: 900px;
+    
+    
+} 
+
+.formularioemail{
+    margin-left: 70px;
+    margin-right: 900px;
+    color: rgb(51, 51, 145);
+    
+}
+
+.pais{
+    margin-left: 70px;
+    margin-right: 900px;
+    color: rgb(51, 51, 145);
+}
+
+.formulariodireccion{
+    margin-left: 70px;
+    margin-right: 900px;
+    color: rgb(51, 51, 145);
+}
+
+.formulariohotel{
+    margin-left: 70px;
+    margin-right: 900px;
+    color: rgb(51, 51, 145);
+}
+
+.formulariotelefono{
+    margin-left: 70px;
+    margin-right: 900px;
+    color: rgb(51, 51, 145);
+}
+
