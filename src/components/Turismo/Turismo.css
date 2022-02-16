@@ -5,6 +5,13 @@
     background-color: white;
     width: 17%;
     height: 100%;
+    
+}
+
+@media (max-width: 750px) {
+    .CARDFONDO{
+        flex-direction: column;
+    }
 }
 
 .img1{
@@ -16,8 +23,11 @@
 
 .imagenfondo{
     width: 110%;
-     height: 310px
+    height: 310.2px;
+    object-fit: cover;
 }
+
+
 .img1:hover{
     transform : scale(1.1);
 }
@@ -25,7 +35,8 @@
 .titulo p{
     color: rgb(51, 51, 145);
     text-align: left;
-    
+    margin: 50px;
+    margin-left: auto;
 }
 
 .titulo a{
@@ -64,6 +75,8 @@
 .tituloaven p{
     color: rgb(51, 51, 145);
     text-align: left;
+    margin-left: auto;
+    margin: 40px;
     
 }
 

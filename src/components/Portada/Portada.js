@@ -16,10 +16,10 @@ const Portada = () => {
             <Carousel.Item interval={3000}>
                 <img height={500} alt="..." src={portada1} class="d-block w-100"/>
                 <Carousel.Caption>
-                    <h2 class="font-weight-bold mt-2">
+                    <h1 className="font-weight-bold mt-2">
                         <span>Descubrí Ushuaia,</span> 
                         <span> El fin del Mundo</span>
-                    </h2>
+                    </h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </Carousel.Caption>
             </Carousel.Item>

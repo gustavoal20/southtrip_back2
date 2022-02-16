@@ -46,6 +46,7 @@ const Confirmar = () => {
                 </Card.Body>
             </Card>
             </div>
+        <div className="formulariocompleto">
         <div className="formularionombre"> 
         <p>Nombre *</p>
         <Form.Control  type="text"  placeholder="Nombre *"  />
@@ -86,6 +87,7 @@ const Confirmar = () => {
             <p>Celular *</p>
         <Form.Control  type="text"  placeholder="Celular *"  />
         
+        </div>
         </div>
     </div>
     )

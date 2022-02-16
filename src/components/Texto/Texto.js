@@ -6,7 +6,7 @@ import "./Texto.css"
 const Texto = () => {
 
     return (
-    <div>
+    <div className="textodebienvenida">
        {/* <h3 className="texto">BIENVENIDOS A USHUAIAA!!!</h3>   
 
        <h1 className ="texto2" >La ciudad de Ushuaia representa en nuestra imaginación lo más lejano, el “Fin del Mundo”.
@@ -19,7 +19,7 @@ const Texto = () => {
                 </div>
             </h2>
         
-            <div>
+            <div className="texto__descripcion">
                 <h6 className="ml-4">
                     <span >
                         <div class="text-left">La ciudad de Ushuaia representa en nuestra imaginación lo más lejano, el “Fin del Mundo”.</div> 

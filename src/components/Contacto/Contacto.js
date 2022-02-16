@@ -25,7 +25,7 @@ const values = Object.fromEntries(formData);
         <div className="textocon">
             <h3>Nos encantaría recibir tu contacto.</h3>
             <p>Envianos un mensaje y te responderemos lo antes posible!</p>
-            <img src={faro} width='40%' height='50%'/>
+            <img className="faro__img" src={faro} width='40%' height='50%'/>
 
         </div>
 

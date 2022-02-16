@@ -9,6 +9,8 @@ import turismo3 from "./imagenes/turismo.3.jpeg";
 import turismo4 from "./imagenes/turismo.4.jpeg";
 import aventura from "./imagenes/aventura.1.jpeg";
 import "./Instagram.css"
+import faro from "./imagenes/faro.jpeg"
+
 
 
 
@@ -22,87 +24,44 @@ function Instagram() {
         
 
 
-    <div>
-<div className='botonin'>
-  <AiFillInstagram/>  <a href='https://www.instagram.com/southtripushuaia/' > southtripushuaia</a> 
+    <div className='instagram'>
+        <div className='botonin'>
+            <AiFillInstagram/>  <a href='https://www.instagram.com/southtripushuaia/' target="_blank"> southtripushuaia</a> 
 
-</div>
-        
-        
-           
-        
-        
-         {/* <div className='gallery-container'>
-            <div className='gallery-card'>
-            
-          {/* src="https://www.instagram.com/p/CXWqSL5J35J/.jpg"
-        /> 
-                <img src='https://www.instagram.com/p/CXWqSL5J35J/'></img>
+    </div>
+        {/* <div className='img__insta'>
+            <img src={faro} width='50%'></img>
+        </div> */}
+        <div className="container">
+            <div className="row">
+                <div className="col-4">
+                    <a href='https://www.instagram.com/p/CZHb7w0LTTR/' target="_blank">
+                    <img src={turismo1} width='100%' height='100%'></img></a>
+                </div>
+                <div className="col-4">
+                    <img src={faro} width='100%' height='100%'/>
+                </div>
+                <div className="col-4">
+                    <img src={faro} width='100%' height='100%'/>
+                </div>
             </div>
-
-        </div>  */}
-    
-
-
-           {/* <div className='instagram'>
-       
-            <CardGroup>
-                <Card>
-                    <Card.Img variant="top" src={"https://www.instagram.com/p/CXWqSL5J35J/"} height="300" width="100" />
-                    <Card.Body>
-                    </Card.Body>
-                
-                </Card>
-                <Card>
-                    <Card.Img variant="top" src={logo}  height="500" width="300"/>
-                    <Card.Body>
-                    </Card.Body>
-                </Card>
-                <Card>
-                    <Card.Img variant="top" src={turismo2} height="500" width="300" />
-                    <Card.Body>
-                    </Card.Body>
-
-                </Card>
-            </CardGroup>
-          </div>  */}
-
-
-          {/* <div className='instagram2'>
-
-            <CardGroup>
-                <Card>
-                    <Card.Img variant="top" src={turismo3}  height="500" width="300"  />
-                    <Card.Body>
-                    </Card.Body>
-                    
-                </Card>
-                <Card>
-                    <Card.Img variant="top" src={turismo4}  height="500" width="300"  />
-                    <Card.Body>
-                    </Card.Body>
-                    
-                </Card>
-                <Card>
-                    <Card.Img variant="top" src={aventura}  height="500" width="300" />
-                    <Card.Body>
-                    </Card.Body>
-                </Card>
-            </CardGroup>
-       
-         </div>   */}
-
-       {/* <div>
-           <a href='https://www.instagram.com'><img src="https://www.instagram.com/p/CXeP89gp_lO"></img> </a>
-       </div> */}
-
-            {/* <iframe width="300" height="300" src='https://www.instagram.com/p/CYPXEJ_qkFa/embed' frameborder="0"></iframe> 
-            <iframe width="300" height="300" src='https://www.instagram.com/p/CXeP89gp_lO/embed' frameborder="0"></iframe>
-            <iframe width="300" height="300" src='https://www.instagram.com/p/CXWqSL5J35J/embed' frameborder="0"></iframe> 
-            <iframe width="300" height="300" src='https://www.instagram.com/p/CXNC9vwsTYR/embed' frameborder="0"></iframe>   */}
+        </div>
+        <div className="container">
+            <div className="row">
+                <div className="col-4">
+                <img src={faro} width='100%' height='100%'/>
+                </div>
+                <div className="col-4">
+                <img src={faro} width='100%' height='100%'/>
+                </div>
+                <div className="col-4">
+                <img src={faro} width='100%' height='100%'/>
+                </div>
+            </div>
+        </div>
         
         <div className='boton2'>
-        <Button href="https://www.instagram.com/southtripushuaia/"> <BsInstagram/> Siguenos en instagram</Button>
+        <Button href="https://www.instagram.com/southtripushuaia/" target="_blank"> <BsInstagram/> Siguenos en instagram</Button>
         </div> 
 </div>
 

@@ -1,3 +1,7 @@
+.contacto{
+    
+}
+
 .textocon h3{
     color: rgb(51, 51, 145);
 }
@@ -9,6 +13,8 @@
 .textocon img{
     float:right;
     padding-right: 80px;
+    object-fit: cover;
+    
 }
 
 .lineacon{
@@ -20,7 +26,43 @@
 .formulario{
     margin-left: 80px;
     margin-right: 700px;
+    
 }
+@media (max-width: 700px){
+    .formulario{
+    
+    }
+}
+
+
+@media (max-width: 900px){
+    .faro__img{
+        display: none;
+
+    }
+}
+
+@media (max-width: 700px){
+    .contacto{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        padding: 0px;
+        margin: -60px;       
+    }
+}
+
+
+ @media (max-width: 750px) {
+    .textocon p{
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+        
+
+
+    }
+} 
 
 /* .faro{
     float: left;
@@ -33,6 +75,15 @@
     font-size: 15px;
     
 }
+
+
+@media (max-width: 700px){
+    .botonen{
+        width: 150%;
+        
+    }
+}
+
 .campos p{
     font-size: 13px;
 }

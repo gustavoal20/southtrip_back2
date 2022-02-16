@@ -13,7 +13,49 @@
   .botonin{
     font-size: 40px;
     padding: 25px;
+    margin-left: 73px;
+    
+  }
+
   
+
+  /* @media (min-width: 1000px){
+    .img__insta{
+      display: none;
+
+    }
+  } */
+  @media (max-width: 700px){
+    .botonin{
+      margin: -10px;     
+      margin: 0px;
+      padding: 0px;
+    }
+  }
+  @media (max-width: 700px){
+    .boton2{
+      padding: 0px;
+      margin: 0px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+
+  @media (max-width: 700px){
+    .container{
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+        
+    }
+  }
+
+
+  .botonin a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
   }
 
   
@@ -22,4 +64,10 @@
     display: grid;
     place-content: center;
     margin: 5px;
+  }
+
+  .row > div{
+    background: #f2f2f2;
+    padding: 1px;
+    border: 1px solid grey;
   }

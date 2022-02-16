@@ -1,23 +1,37 @@
-/* .texto{
-    justify-content: space-around;
-    font-family: sans-serif;
-    color: red;
-    text-align: center;
-    font-family: larger;
-  }
-  
-  .texto2{
-    font-family: 'Source Sans Pro', sans-serif;
-    color: rgb(187, 184, 184);
-    text-align: center;
-    font-family: medium;
-    font-style: normal;
-  } */
+
 
   h6{
    padding-left: 110px;
   }
 
   .bienvenidos{
-    padding-left: 91px
+    padding-left: 91px;
+    color: rgb(51, 51, 145);
+    display: flex;
+    text-align: left;
+    
+  }
+
+  @media (max-width: 700px){
+    .bienvenidos{
+      display: flex;
+      margin: 0px;
+      padding: 0px;
+    }
+  }
+  @media (max-width: 700px){
+  .texto__descripcion{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: -0px;
+    text-align: left;
+
+    
+  }
+}
+  .textodebienvenida{
+    margin: 0px;
+    padding: 0px;
+   
   }

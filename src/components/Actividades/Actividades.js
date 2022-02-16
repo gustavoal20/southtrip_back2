@@ -28,14 +28,20 @@ const Actividades = () => {
          <hr/>
        </div> 
 
-          <div className="card1">
+      <div className="info__container">
+      <div className="informacion__travesia">
+          <div className="iconos"><p><AiOutlineClockCircle/> Duración: </p><p> 10hs</p> </div>
+          <div className="iconos2"><p><GoCircleSlash/> Cancelacion:</p> <p>no se cansela</p></div>
+          <div className="iconos3"><p><GrGroup/> Maxi de personas:</p> <p> 20 </p></div>
+      </div>
+          <div className="card__presios">
             <Card className="card1" style={{ width: '18rem' }}>
                 <Card.Header >AR$5.100,00</Card.Header>
                 <ListGroup variant="flush">
                   
                     <ListGroup.Item>Fecha</ListGroup.Item>
                     <ListGroup.Item>Adultos</ListGroup.Item>
-                    <ListGroup.Item ><Button className="botonacts"  variant="primary" type="submit">
+                    <ListGroup.Item ><Button className="botonacts" href="/Confirmar" variant="primary" type="submit">
             reservar </Button></ListGroup.Item>
                 </ListGroup>
                 
@@ -43,28 +49,9 @@ const Actividades = () => {
           </div>
           <br/>
           
-        
-          <div className="iconos">
-          <p><AiOutlineClockCircle/> Duracion:</p>
-          </div>
-
-          <div className="iconos2"> 10hs</div>
-
-          <div className="iconos">
-          <p><GoCircleSlash/> Cancelacion:</p> 
-          </div>
-
-            <p>no se cansela</p> 
-
-           <div className="iconos">
-          <p><GrGroup/> Maxi de personas:</p> 
-          </div>
-
-         <div className="iconos2"> <p> 20 </p>
-         </div>
           
-        
-
+        </div>
+         
           <br/>
           <br/>
           <br/>
@@ -79,14 +66,14 @@ const Actividades = () => {
           <div className="caminata2"> 
           
           <br/>
-          <p>De la mano de ANDES TRUCK te invitamos a recorrer la Reserva Natural Villavicencio. Un lugar que despertará tu espíritu aventurero.</p>
+          <p>De la mano de Southtrip te invitamos a recorrer la Laguna Esmeralda. Un lugar que despertará tu espíritu aventurero.</p>
 
-          <p>Te proponemos vivir la naturaleza en una experiencia que nos llevará a descubrir increíbles quebradas y parajes protegidos.</p>
+          <p>Te proponemos vivir la naturaleza en una experiencia que nos llevará a descubrir lindos paisajes.</p>
 
-         <p>La reserva cuenta con 72 mil hectáreas en las que se conservan más de 450 especies de flora y fauna autóctonas.</p>
+         <p>La Laguna cuenta con 72 mil hectáreas en las que se conservan más de 450 especies de flora y fauna autóctonas.</p>
 
         <br/>
-         <h5>Tips Kahuak para esta actividad:</h5>
+         <h5>Tips South para esta actividad:</h5>
          <br/>
        <ul><li><p>Recomendamos llevar ropa cómoda, pantalón largo y abrigo, zapatos deportivos.</p></li> </ul>
        <ul><li><p>Llevar identificación personal, dinero en efectivo, agua mineral.</p></li> </ul>
@@ -99,8 +86,8 @@ const Actividades = () => {
         <div className="caminata3"> 
           <h3>INCLUYE</h3>
           <br/>
-          <p><FcCheckmark/> Minitrekking guiado a las minas.</p>         
-          <p><FcCheckmark/> Casco y seguro.</p>
+          <p><FcCheckmark/> Trekking guiado.</p>         
+          <p><FcCheckmark/> .</p>
           <p><FcCheckmark/> Agua mineral.</p>
         </div>
        <div className="linea">

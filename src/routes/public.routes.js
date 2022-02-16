@@ -6,11 +6,13 @@ import PublicRoute from './helperRoutes';
 import ActividadesViews from '../views/ActividadesViews';
 import ContactoViews from '../views/ContactoViews';
 import NosotrosViews from '../views/NosotrosViews';
+import ConfirmarViews from '../views/ConfirmarViews';
 
 
 const PublicRoutes = () => {
     return (
         <Switch>
+            <PublicRoute exac path='/Confirmar' componen={ConfirmarViews}/>
             <PublicRoute exac path='/Nosotros' componen={NosotrosViews}/>
             <PublicRoute exac path='/Contacto' componen={ContactoViews}/>
             <PublicRoute exac path='/Actividades' componen={ActividadesViews}/>

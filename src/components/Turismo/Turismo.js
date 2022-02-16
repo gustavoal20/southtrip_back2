@@ -23,21 +23,20 @@ const Turismo = () => {
                     <p> <FcFlashOn/>from  ARS$10000</p>
                     </div>
                     </Card.Body>
-                </Card>  
-             <br/>
-             <br/>
-             <br/>
-             <br/>
-             <br/>
-             <br/>
-             <br/>
-             <br/>
-             <br/> 
-             <br/>
-             <br/>
-             <br/>
-             <br/>
-             
+                    </Card>  
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/> 
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>        
              <div className="caminatafondo" style={{
                  backgroundImage: `url(${fondo})`,backgroundRepeat: 'no-repeat', width: '100%', height: '310px',}}>
                   <Card className="CARDAVEN">

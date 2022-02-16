@@ -40,7 +40,8 @@ const Barrasuperior = () => {
               //         </div>
               //     </nav>
       
-              // </div>   
+              // </div>  
+              <div className="barra__superior"> 
               <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="/home">
                   <img src={logo} width="100" height="80" alt=""/>
@@ -54,21 +55,22 @@ const Barrasuperior = () => {
                       <a class="nav-link" href="/">Inicio <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/Actividades">Actividades</a>
+                      <a class="nav-link" href="/Actividades" target="_blank">Actividades</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#traslados">Traslados</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/Nosotros">Nosotros</a>
+                      <a class="nav-link" href="/Nosotros" target="_blank">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/Contacto">Contacto</a>
+                      <a class="nav-link" href="/Contacto" target="_blank">Contacto</a>
                     </li>
+                    
                   </ul>
                 </div>
               </nav>
-      
+            </div>
    
 
     )

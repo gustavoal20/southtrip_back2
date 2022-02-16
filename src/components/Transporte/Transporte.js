@@ -25,7 +25,7 @@ function Transporte() {
                 </h2>
 
                 <div className='boton'>
-                     <Button variant='dark'><a href='/Contacto'>Contactanos</a></Button>
+                     <Button variant='dark'><a href='/Contacto' target="_blank">Contactanos</a></Button>
                  </div>
             </div>
             

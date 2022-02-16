@@ -15,7 +15,7 @@ const Barrainferior = () => {
     <a href="/">
         <img src={logo} alt= " " />
         </a>   
-        <div className="barra2">
+        <div className="barra__inferior">
             <p> <BsPinMap/> Rivadavia 234, ushuaia city</p>
             <p> <BsTelephone/> +54 267 456321</p>
             <p> <FiMail/> info@southrip.com.ar</p>
