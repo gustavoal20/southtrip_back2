@@ -10,10 +10,10 @@ import fondo from './Imagenes/aventura.1.jpeg'
 const Turismo = () => {
 
     return (
-<div className="imagenfondo" style={{
+        <div className="imagenfondo" style={{
             backgroundImage: `url(${caminata1})`, backgroundRepeat: 'no-repeat', color: 'blue'}}>
                 
-                  <Card className="CARDFONDO">
+                <Card className="CARDFONDO">
                     <Card.Img className="img1" variant="top" src={caminata1}/>
                     <Card.Body className="body">
                     <div className="titulo">
@@ -23,7 +23,7 @@ const Turismo = () => {
                     <p> <FcFlashOn/>from  ARS$10000</p>
                     </div>
                     </Card.Body>
-                    </Card>  
+                </Card>  
                     <br/>
                     <br/>
                     <br/>
@@ -56,7 +56,7 @@ const Turismo = () => {
              </div>  
             
 
-         </div> 
+        </div> 
         // <div className="turismo9" style={{backgroundImage:`url(${fondo})`}}>
              
         //          <Card className="CARD">
@@ -100,4 +100,4 @@ const Turismo = () => {
  }
 
 
-export default Turismo
+export default Turismo;

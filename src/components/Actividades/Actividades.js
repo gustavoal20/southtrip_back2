@@ -1,6 +1,6 @@
 import React from "react";
 import './Actividades.css';
-import caminata from './Imagenes/caminata.jpeg'
+import caminata from './Imagenes/turismo.4.jpeg'
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { GoCircleSlash } from "react-icons/go";
 import { GrGroup } from "react-icons/gr";

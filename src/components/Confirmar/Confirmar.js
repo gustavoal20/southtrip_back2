@@ -1,6 +1,6 @@
 import React from "react";
 import './Confirmar.css'
-import {Form, Card} from 'react-bootstrap'
+import {Form, Card, Button} from 'react-bootstrap'
 import caminata from './Imagenes/caminata.jpg'
 
 const Confirmar = () => {
@@ -72,11 +72,11 @@ const Confirmar = () => {
         </Form.Select>
         </div>
         <br/>
-        <div className="formulariodireccion">
+        {/* <div className="formulariodireccion">
             <p>Dirección *</p>
         <Form.Control  type="text"  placeholder="Provincia/Nombre y numero de calle"  />
         </div>
-        <br/>
+        <br/> */}
         <div className="formulariohotel">
             <p>Dirección Ushuaia *</p>
         <Form.Control  type="text"  placeholder="Hotel/Alojamiento"  />
@@ -86,6 +86,11 @@ const Confirmar = () => {
         <div className="formulariotelefono">
             <p>Celular *</p>
         <Form.Control  type="text"  placeholder="Celular *"  />
+        <br/>
+
+        <Button  variant="primary" type="submit" >
+            PAGAR
+        </Button>
         
         </div>
         </div>

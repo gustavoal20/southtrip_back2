@@ -16,7 +16,7 @@ const PublicRoutes = () => {
             <PublicRoute exac path='/Nosotros' componen={NosotrosViews}/>
             <PublicRoute exac path='/Contacto' componen={ContactoViews}/>
             <PublicRoute exac path='/Actividades' componen={ActividadesViews}/>
-            <PublicRoute exac path='/login' componen={LoginView} />
+            {/* <PublicRoute exac path='/login' componen={LoginView} /> */}
             <PublicRoute exac path="/" componen={HomeView}/>
             <Redirect path='/**' to='/'/>
            

@@ -5,7 +5,7 @@ import "./Login.css"
 const Login = () => {
 
     return (
-<div className="Login">
+    <div className="Login">
     <Card>
         <Form>
         <Form.Group className="mb-3" controlId="formBasicText">
@@ -33,4 +33,4 @@ const Login = () => {
 </div>
  )
 }
-export default Login
+export default Login;

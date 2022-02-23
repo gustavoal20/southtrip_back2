@@ -14,6 +14,7 @@ import Barrainferior from '../components/Barrainferior/Barrainferior';
 import Turismo from '../components/Turismo/Turismo';
 //import Ubicacion from '../components/Ubicacion/Ubicacion'
 import ReactDOM from 'react-dom';
+import ViewExcursiones from '../components/Turismo/ViewExcursiones';
 const HomeViews = () =>(
 <div>
   
@@ -25,14 +26,16 @@ const HomeViews = () =>(
   <Texto/>
   <br/>
   <br/>
-  <Turismo/>
+  <ViewExcursiones />
+  {/* <Turismo /> */}
+  {/* <br/>
+  <br/>
+  
+  <br/>
+  <br/> 
   <br/>
   <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
+  <br/>*/}
   <br/>
   <Transporte/>
   <Excursiones/>

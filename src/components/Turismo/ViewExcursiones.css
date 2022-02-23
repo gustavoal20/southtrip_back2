@@ -1,0 +1,14 @@
+.imagenfondo{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagenfondo:before {
+    content: "";
+
+    background: linear-gradient(90deg, rgb(51, 51, 145));
+    opacity: 0.5;
+}
